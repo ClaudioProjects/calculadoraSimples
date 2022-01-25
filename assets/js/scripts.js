@@ -51,6 +51,9 @@ function criaCalculadora () {
                 if (e.key === "Backspace"){
                     this.delLastDigit();
                 };
+                if (e.key === "Delete"){
+                    this.clearDisplay();
+                };
             })
         },
 
