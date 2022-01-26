@@ -49,7 +49,7 @@ function Calculadora() {
 
     const keyPressDgt = () => {
             document.addEventListener('keyup' , e => {
-            const num = ['1', '2', '3','4', '5', '6','7', '8', '9', '+', '-', '(',')', '*', '/', '.'] 
+            const num = ['1', '2', '3','4', '5', '6','7', '8', '9', '+', '-', '(',')', '*', '/', '.', '0'] 
             for (let tecla of num) {
                 if (e.key === tecla) display.innerText += e.key;
             };
